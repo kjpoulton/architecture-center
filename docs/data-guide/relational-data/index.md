@@ -11,11 +11,11 @@ Relational data is data modeled using the relational model. In this model, data 
 
 Relations are naturally represented as tables, where each tuple is exposed as a row in the table. However, rows have an explicit ordering, unlike tuples. The database schema defines the columns (headings) of each table. Each column is defined with a name and a data type for all values stored in that column across all rows in the table.
 
-![Example showing data using a relational database](./images/example-relational.png)
+![Example showing data using a relational database](../images/example-relational.png)
 
 A data store that organizes data using the relational model is referred to as a relational database. Primary keys uniquely identify rows within a table. Foreign key fields are used in one table to refer to a row in another table by referencing the primary key of the other table. Foreign keys are used to maintain referential integrity, ensuring that the referenced rows are not altered or deleted while the referencing row depends on them. 
 
-![Example showing data using a relational database](./images/example-relational2.png)
+![Example showing data using a relational database](../images/example-relational2.png)
 
 Relational databases support various types of constraints that help to ensure data integrity:
 

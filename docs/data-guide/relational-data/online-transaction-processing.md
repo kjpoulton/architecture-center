@@ -9,7 +9,7 @@ ms:date: 02/12/2018
 
 The management of [transactional data](../concepts/transactional-data.md) using computer systems is referred to as Online Transaction Processing (OLTP). OLTP systems record business interactions as they occur in the day-to-day operation of the organization, and support querying of this data to make inferences.
 
-![OLTP in Azure](./images/oltp-data-pipeline.png)
+![OLTP in Azure](../images/oltp-data-pipeline.png)
 
 ## Transactional data
 
@@ -20,8 +20,6 @@ Transactions typically need to be *atomic* and *consistent*. Atomicity means tha
 Transactional databases can support strong consistency for transactions using various locking strategies, such as pessimistic locking, to ensure that all data is strongly consistent within the context of the enterprise, for all users and processes. 
 
 The most common deployment architecture that uses transactional data is the data store tier in a 3-tier architecture. A 3-tier architecture typically consists of a presentation tier, business logic tier, and data store tier. A related deployment architecture is the [N-tier](/azure/architecture/guide/architecture-styles/n-tier) architecture, which may have multiple middle-tiers handling business logic.
-
-![Example of a 3-tier application](./images/three-tier-application.png)
 
 ## Typical traits of transactional data
 

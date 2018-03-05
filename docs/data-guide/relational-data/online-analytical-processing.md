@@ -11,7 +11,7 @@ Online analytical processing (OLAP) is a technology that organizes large busines
 
 The databases that a business uses to store all its transactions and records are called [online transaction processing (OLTP)](online-transaction-processing.md) databases. These databases usually have records that are entered one at a time. Often they contain a great deal of information that is valuable to the organization. The databases that are used for OLTP, however, were not designed for analysis. Therefore, retrieving answers from these databases is costly in terms of time and effort. OLAP systems were designed to help extract this business intelligence information from the data in a highly performant way. This is because OLAP databases are optimized for heavy read, low write workloads.
 
-![OLAP in Azure](./images/olap-data-pipeline.png) 
+![OLAP in Azure](../images/olap-data-pipeline.png) 
 
 ## Semantic modeling
 
@@ -28,7 +28,7 @@ Semantic modeling is predominately used for read-heavy scenarios, such as analyt
 
 Traditionally, the semantic layer is placed over a data warehouse for these reasons.
 
-![Example diagram of a semantic layer between a data warehouse and a reporting tool](./images/semantic-modeling.png)
+![Example diagram of a semantic layer between a data warehouse and a reporting tool](../images/semantic-modeling.png)
 
 There are two primary types of semantic models:
 

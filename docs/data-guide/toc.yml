@@ -30,7 +30,7 @@
       - name: Scenarios
         items:
         - name: Advanced analytics
-          href: big-data/advanced-analytics.md 
+          href: scenarios/advanced-analytics.md 
         - name: Data lakes
           href: scenarios/data-lake.md
         - name: Free-form text search

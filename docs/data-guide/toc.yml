@@ -15,8 +15,18 @@
     - name: Extract, transform, and load (ETL)
       href: relational-data/etl.md 
 
-  - name: Big Data and NoSQL
+  - name: Big data
+    href: big-data/index.md
     items:
+      - name: Batch processing
+        href: big-data/batch-processing.md
+      - name: Real time processing
+        href: big-data/real-time-processing.md
+      - name: Advanced analytics
+        href: big-data/advanced-analytics.md 
+      - name: Machine learning at scale
+        href: big-data/machine-learning-at-scale.md
+
     - name: Concepts
       items:
       - name: Non-relational data stores
@@ -25,18 +35,8 @@
         href: concepts/csv-and-json.md
       - name: Data lakes
         href: concepts/data-lake.md
-      - name: Big data architectures
-        href: concepts/big-data.md
-      - name: Advanced analytics
-        href: concepts/advanced-analytics.md 
-      - name: Machine learning at scale
-        href: concepts/machine-learning-at-scale.md
     - name: Scenarios
       items:
-      - name: Batch processing
-        href: scenarios/batch-processing.md
-      - name: Real time processing
-        href: scenarios/real-time-processing.md
       - name: Free-form text search
         href: scenarios/search.md
       - name: Interactive data exploration

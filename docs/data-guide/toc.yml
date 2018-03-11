@@ -27,48 +27,48 @@
       - name: Machine learning at scale
         href: big-data/machine-learning-at-scale.md
 
-    - name: Concepts
-      items:
-      - name: Non-relational data stores
-        href: concepts/non-relational-data.md
-      - name: Working with CSV and JSON files
-        href: concepts/csv-and-json.md
-      - name: Data lakes
-        href: concepts/data-lake.md
-    - name: Scenarios
-      items:
-      - name: Free-form text search
-        href: scenarios/search.md
-      - name: Interactive data exploration
-        href: scenarios/interactive-data-exploration.md
-      - name: Natural language processing
-        href: scenarios/natural-language-processing.md
-      - name: Time series solutions
-        href: scenarios/time-series.md
-    - name: Technology choices
-      items:
-      - name: Analytical data stores
-        href: technology-choices/analytical-data-stores.md 
-      - name: Analytics and reporting
-        href: technology-choices/analysis-visualizations-reporting.md 
-      - name: Batch processing
-        href: technology-choices/batch-processing.md 
-      - name: Cognitive services
-        href: technology-choices/cognitive-services.md 
-      - name: Data storage
-        href: technology-choices/data-storage.md
-      - name: Machine learning
-        href: technology-choices/data-science-and-machine-learning.md 
-      - name: Natural language processing
-        href: technology-choices/natural-language-processing.md 
-      - name: Pipeline orchestration
-        href: technology-choices/pipeline-orchestration-data-movement.md 
-      - name: Real-time message ingestion
-        href: technology-choices/real-time-ingestion.md
-      - name: Search data stores
-        href: technology-choices/search-options.md
-      - name: Stream processing
-        href: technology-choices/stream-processing.md
+      - name: Concepts
+        items:
+        - name: Non-relational data stores
+          href: concepts/non-relational-data.md
+        - name: Working with CSV and JSON files
+          href: concepts/csv-and-json.md
+        - name: Data lakes
+          href: concepts/data-lake.md
+      - name: Scenarios
+        items:
+        - name: Free-form text search
+          href: scenarios/search.md
+        - name: Interactive data exploration
+          href: scenarios/interactive-data-exploration.md
+        - name: Natural language processing
+          href: scenarios/natural-language-processing.md
+        - name: Time series solutions
+          href: scenarios/time-series.md
+      - name: Technology choices
+        items:
+        - name: Analytical data stores
+          href: technology-choices/analytical-data-stores.md 
+        - name: Analytics and reporting
+          href: technology-choices/analysis-visualizations-reporting.md 
+        - name: Batch processing
+          href: technology-choices/batch-processing.md 
+        - name: Cognitive services
+          href: technology-choices/cognitive-services.md 
+        - name: Data storage
+          href: technology-choices/data-storage.md
+        - name: Machine learning
+          href: technology-choices/data-science-and-machine-learning.md 
+        - name: Natural language processing
+          href: technology-choices/natural-language-processing.md 
+        - name: Pipeline orchestration
+          href: technology-choices/pipeline-orchestration-data-movement.md 
+        - name: Real-time message ingestion
+          href: technology-choices/real-time-ingestion.md
+        - name: Search data stores
+          href: technology-choices/search-options.md
+        - name: Stream processing
+          href: technology-choices/stream-processing.md
   - name: Cross-cutting concerns
     items:
     - name: Data transfer

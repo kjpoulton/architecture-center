@@ -32,7 +32,7 @@
       - name: Scenarios
         items:
         - name: Data lakes
-          href: concepts/data-lake.md
+          href: scenarios/data-lake.md
         - name: Free-form text search
           href: scenarios/search.md
         - name: Interactive data exploration
@@ -42,7 +42,7 @@
         - name: Time series solutions
           href: scenarios/time-series.md
         - name: Working with CSV and JSON files
-          href: concepts/csv-and-json.md
+          href: scenarios/csv-and-json.md
       - name: Technology choices
         items:
         - name: Analytical data stores

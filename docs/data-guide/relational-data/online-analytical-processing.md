@@ -73,7 +73,7 @@ Consider OLAP in the following scenarios:
 
 OLAP is especially useful for applying aggregate calculations over large amounts of data. OLAP systems are optimized for read-heavy scenarios, such as analytics and business intelligence. OLAP allows users to segment multi-dimensional data into slices that can be viewed in two dimensions (such as a pivot table) or filter the data by specific values. This process is sometimes called "slicing and dicing" the data, and can be done regardless of whether the data is partitioned across several data sources. This helps users to find trends, spot patterns, and explore the data without having to know the details of traditional data analysis.
 
-[Semantic models](../concepts/semantic-modeling.md) can help business users abstract relationship complexities and make it easier to analyze data quickly.
+[Semantic models](../concepts/online-analytical-processing.md#semantic-modeling) can help business users abstract relationship complexities and make it easier to analyze data quickly.
 
 ## Challenges
 

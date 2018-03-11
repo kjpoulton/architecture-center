@@ -31,4 +31,4 @@ To improve query performance, relational databases use *indexes*. Primary indexe
 
 Because relational databases enforce referential integrity, scaling a relational database can become challenging. That's because any query or insert operation might touch any number of tables. You can scale out a relational database by *sharding* the data, but this requires careful design of the schema. For more information, see [Sharding pattern](../../patterns/sharding.md).
 
-If data is non-relational or has requirements that are not suited to a relational database, consider a [Non-relational or NoSQL](./non-relational-data.md) data store.
+If data is non-relational or has requirements that are not suited to a relational database, consider a [Non-relational or NoSQL](../big-data/non-relational-data.md) data store.

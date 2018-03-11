@@ -58,7 +58,7 @@ In the context of data pipelines, the control flow ensures orderly processing of
 
 Control flows execute data flows as a task. In a data flow task, data is extracted from a source, transformed, or loaded into a data store. The output of one data flow task can be the input to the next data flow task, and data flowss can run in parallel. Unlike control flows, you cannot add constraints between tasks in a data flow. You can, however, add a data viewer to observe the data as it is processed by each task.
 
-![Data Flow being executed as a task within a Control Flow](./images/control-flow-data-flow.png)
+![Data Flow being executed as a task within a Control Flow](../images/control-flow-data-flow.png)
 
 In the diagram above, there are several tasks within the control flow, one of which is a data flow task. One of the tasks is nested within a container. Containers can be used to provide structure to tasks, providing a unit of work. One such example is for repeating elements within a collection, such as files in a folder or database statements.
 
@@ -70,7 +70,7 @@ Other tools:
 
 ## Technology choices
 
-- [Online Transaction Processing (OLTP) data stores](../technology-choices/oltp-data-stores.md)
-- [Online Analytical Processing (OLAP) data stores](../technology-choices/olap-data-stores.md)
-- [Data warehouses](../technology-choices/data-warehouses.md)
+- [Online Transaction Processing (OLTP) data stores](../technology-choices/online-transaction-processing.md)
+- [Online Analytical Processing (OLAP) data stores](../technology-choices/online-analytical-processing.md)
+- [Data warehouses](../technology-choices/data-warehousing.md)
 - [Pipeline orchestration](../technology-choices/pipeline-orchestration-data-movement.md)

@@ -18,6 +18,8 @@
   - name: Big data
     href: big-data/index.md
     items:
+      - name: Big data architectures
+        href: big-data/index.md
       - name: Batch processing
         href: big-data/batch-processing.md
       - name: Real time processing
@@ -26,17 +28,12 @@
         href: big-data/advanced-analytics.md 
       - name: Machine learning at scale
         href: big-data/machine-learning-at-scale.md
-
-      - name: Concepts
-        items:
-        - name: Non-relational data stores
-          href: concepts/non-relational-data.md
-        - name: Working with CSV and JSON files
-          href: concepts/csv-and-json.md
-        - name: Data lakes
-          href: concepts/data-lake.md
+      - name: Non-relational data stores
+        href: concepts/non-relational-data.md
       - name: Scenarios
         items:
+        - name: Data lakes
+          href: concepts/data-lake.md
         - name: Free-form text search
           href: scenarios/search.md
         - name: Interactive data exploration
@@ -45,6 +42,8 @@
           href: scenarios/natural-language-processing.md
         - name: Time series solutions
           href: scenarios/time-series.md
+        - name: Working with CSV and JSON files
+          href: concepts/csv-and-json.md
       - name: Technology choices
         items:
         - name: Analytical data stores

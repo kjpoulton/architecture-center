@@ -23,14 +23,14 @@
         href: big-data/batch-processing.md
       - name: Real time processing
         href: big-data/real-time-processing.md
-      - name: Advanced analytics
-        href: big-data/advanced-analytics.md 
       - name: Machine learning at scale
         href: big-data/machine-learning-at-scale.md
       - name: Non-relational data stores
         href: big-data/non-relational-data.md
       - name: Scenarios
         items:
+        - name: Advanced analytics
+          href: big-data/advanced-analytics.md 
         - name: Data lakes
           href: scenarios/data-lake.md
         - name: Free-form text search

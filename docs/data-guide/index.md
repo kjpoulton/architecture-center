@@ -53,14 +53,14 @@ This guide is not intended to teach you data science or database theory &mdash; 
 
 - [Non-relational data stores](./concepts/non-relational-data.md)
 - [Working with CSV and JSON files](./concepts/csv-and-json.md)
-- [Big data architectures](./concepts/big-data.md)
+- [Big data architectures](./big-data/index.md)
 - [Advanced analytics](./concepts/advanced-analytics.md) 
 - [Machine learning at scale](./concepts/machine-learning-at-scale.md)
 
 ### Scenarios
 
-- [Batch processing](./scenarios/batch-processing.md)
-- [Real time processing](./scenarios/real-time-processing.md)
+- [Batch processing](./big-data/batch-processing.md)
+- [Real time processing](./big-data/real-time-processing.md)
 - [Free-form text search](./scenarios/search.md)
 - [Interactive data exploration](./scenarios/interactive-data-exploration.md)
 - [Natural language processing](./scenarios/natural-language-processing.md)

@@ -4,8 +4,9 @@
   href: index.md
   items:
   - name: Traditional RDBMS solutions
-    href: relational-data/index.md
     items:
+    - name: Overview
+      href: relational-data/index.md 
     - name: Online transaction processing (OLTP)
       href: relational-data/online-transaction-processing.md 
     - name: Data warehousing
@@ -14,11 +15,9 @@
       href: relational-data/online-analytical-processing.md
     - name: Extract, transform, and load (ETL)
       href: relational-data/etl.md 
-
-  - name: Big data
-    href: big-data/index.md
+  - name: Big data architectures
     items:
-      - name: Big data architectures
+      - name: Overview
         href: big-data/index.md
       - name: Batch processing
         href: big-data/batch-processing.md
@@ -29,7 +28,7 @@
       - name: Machine learning at scale
         href: big-data/machine-learning-at-scale.md
       - name: Non-relational data stores
-        href: concepts/non-relational-data.md
+        href: big-data/non-relational-data.md
       - name: Scenarios
         items:
         - name: Data lakes
